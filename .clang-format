@@ -1,0 +1,20 @@
+---
+BasedOnStyle:  Google
+PointerBindsToType: false
+ObjCSpaceAfterProperty: true
+SortIncludes: true
+IndentWidth: 4
+PointerAlignment: Right
+AlignConsecutiveDeclarations: false
+IndentPPDirectives: BeforeHash
+
+AlignTrailingComments: true
+ColumnLimit: 140
+KeepEmptyLinesAtTheStartOfBlocks: false
+ObjCBlockIndentWidth: 4
+ObjCSpaceBeforeProtocolList: false
+SpacesBeforeTrailingComments: 1
+TabWidth: 8
+MaxEmptyLinesToKeep: 2
+UseTab: Never
+...
