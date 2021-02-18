@@ -29,3 +29,12 @@ $ curl -fsSL https://raw.githubusercontent.com/andriitishchenko/git_clangformat/
 You can modify the .clang-format for your needs, check more options
 
 https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+
+
+## Hint
+
+Apply code formatting to specific files *.(h|m|cpp) in the ./test directory:
+
+```bash
+find ./test -type f \( -iname \*.h -o -iname \*.m -o -iname \*.cpp \) -exec clang-format -i -style=file {} \;
+```
