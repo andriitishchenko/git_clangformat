@@ -35,6 +35,7 @@ main(){
     # download predefined pre-commit hook to .git/hooks/
     curl -o .git/hooks/pre-commit -L https://raw.githubusercontent.com/andriitishchenko/git_clangformat/main/pre-commit 
     chech_status $? "fatal: pre-commit hook downloading failed."
+    chmod +x .git/hooks/pre-commit
 
     echo "Installed successfully"
 }
