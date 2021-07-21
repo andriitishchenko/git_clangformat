@@ -2,7 +2,7 @@
 BasedOnStyle:  Google
 AlignConsecutiveDeclarations: false
 AlignTrailingComments: true
-AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
 ColumnLimit: 140
 IndentPPDirectives: BeforeHash
 IndentWidth: 4
